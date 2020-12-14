@@ -3,9 +3,9 @@ const verb = ['love', 'adore', 'keen on', 'interesting in']
 const subject = ['coding', 'learning', 'chatting', 'laughing']
 
 const get_random_message = () => {
-    console.log(get_random_item(noun) + ' ' +
-                get_random_item(verb) + ' ' +
-                get_random_item(subject) + '!')
+    console.log([noun, verb, subject]
+                .reduce()
+                .join() + '!')
 }
 
 const get_random_item = array => {
