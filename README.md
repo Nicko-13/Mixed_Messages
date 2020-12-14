@@ -16,7 +16,8 @@ The purpose of this project is to practice basic of JavaScript and GitHub workfl
 
 ## Technologies
 
-* JavaScript ES 6
+* JavaScript ES6
+* Node version 12.18.1
 * Git version 2.19.2
 
 ## Status
